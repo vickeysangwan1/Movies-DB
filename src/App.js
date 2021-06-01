@@ -1,12 +1,13 @@
 import React from "react";
-import "./styles/App.css";
+import Navbar from "./components/Navbar";
+import Movies from "./components/Movies";
 
 function App() {
   return (
-    <div>
-      <h1 className="heading">Movies DB</h1>
-    </div>
+    <main>
+      <Navbar />
+      <Movies />
+    </main>
   );
 }
-
 export default App;

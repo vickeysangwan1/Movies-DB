@@ -1,0 +1,56 @@
+.movies {
+  width: 98vw;
+  margin: 2rem 0;
+  margin-left: auto;
+}
+
+.title h1 {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.title .underline {
+  width: 80px;
+  height: 2px;
+  background-color: black;
+}
+
+.movies-container {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding-top: 2rem;
+}
+.movie {
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.image {
+  width: 175px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.image:hover {
+  transform: translateY(-10px);
+}
+.image img {
+  border-radius: 10px;
+}
+
+.movie-info {
+  margin-left: 0.5rem;
+}
+
+.movie-info h3 {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.movie-info h2 {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.movie-info p {
+  font-size: 0.85rem;
+  font-weight: 500;
+}

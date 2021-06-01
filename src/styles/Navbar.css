@@ -1,0 +1,49 @@
+.navbar {
+  width: 100vw;
+  background-color: #032541;
+}
+
+.navbar nav {
+  width: 98vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 100px;
+  margin-right: 2.5rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.navbar ul li:first-of-type {
+  margin-right: 1rem;
+}
+
+.search-form {
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+.search-form input {
+  width: 225px;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+}
