@@ -1,6 +1,6 @@
 const data = [
   {
-    adult: true,
+    adult: false,
     backdrop_path: "/wwFBRyekDcKXJwP0mImRJjAnudL.jpg",
     genre_ids: [27],
     id: 632357,
